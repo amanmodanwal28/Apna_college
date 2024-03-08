@@ -58,3 +58,35 @@ p+h3 {
 /* Child Combinator */
 
 /* select a child which one are direct children of parent  not the nested ones*/
+
+div > input {
+    background-color: darkgray;
+}
+
+input[type="text"]{
+    color: red;
+}
+input[type= "password"]{
+    color: aqua;
+}
+
+/* Pseudo Class */
+
+/* A keyboard added to a selector 
+that specifies a special state of the selected element */
+
+
+/* pseudo element */
+
+h1::first-letter{
+    color: aqua;
+}
+
+
+p::first-line{
+    color: red;
+}
+
+p::selection{
+    background-color: rgb(174, 220, 174);
+}
