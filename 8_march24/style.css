@@ -1,0 +1,60 @@
+/* a *(start) indicate for all body change   they use for change all data  */
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* also i write element tag only with there name  */
+
+h1,
+h3 {
+    color: #b92b27;
+}
+
+/* when i need to give sam e value in diffrent diffrent element  then use  comma
+for given the value */
+
+/* id use for particular element style  and class use for group of element style*/
+
+#login {
+    background-color: white;
+}
+
+/*  ID selector */
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+/* Class selector */
+.upvote {
+    background-color: green;
+    color: aliceblue;
+}
+
+
+/* Descendant Selector */
+/* In descendant selector  we can select any child element from parent element */
+
+.post a {
+    color: purple;
+    background-color: yellowgreen;
+}
+
+nav ul li a {
+    color: pink;
+}
+
+/* sibling combinator */
+p+h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* Child Combinator */
+
+/* select a child which one are direct children of parent  not the nested ones*/
