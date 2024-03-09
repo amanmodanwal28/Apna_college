@@ -1,0 +1,22 @@
+div {
+    height :200px;
+    width : 500px;
+    background-color: pink;
+    margin: 2%;
+    /* border-width: 3px;
+    border-style: groove;
+    border-color: black; */
+    
+    /* we can use this instead of upper highlight  code  */
+    border: 3px groove green;
+    border-left : 5px dotted red
+}
+
+h1 {
+    width: 500px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: green;
+    border-left-color: brown;
+
+}
