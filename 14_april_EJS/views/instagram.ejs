@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram testing</title>
+</head>
+<body>
+    <h1>This is Instagram Tesing username</h1>
+    <h2>The page belongs to  <%= username%></h2>
+    <br>
+    <button>Follow</button>
+    <button>Message</button>
+
+    <h3>Account that follow you</h3>
+    <ul>
+    <% for(data of followers){ %>
+    <li><%=data %></li>
+    <% } %>
+    </ul>
+</body>
+</html>
