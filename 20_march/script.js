@@ -51,7 +51,7 @@ let val3 = 1;
 if (val > val2 || val > val3) {
     console.log(` ${val} is greater then  ${val2} and ${val3}`)
 }
-else if () {
+else  {
     console.log(` ${val} is greater then  ${val2} and ${val3}`)
 }
 
