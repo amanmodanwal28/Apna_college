@@ -2,7 +2,7 @@
   "name": "apna_college",
   "version": "1.0.0",
   "description": "",
-  "main": "./14_april_EJS/index.js",
+  "main": "./15_april_EJS/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"

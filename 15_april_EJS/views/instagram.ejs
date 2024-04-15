@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>instagram testing</title>
+        <link rel="stylesheet" type="text/css" href="/style.css">
+
+    </head>
+    <body>
+        <h2>The page belongs to <%= username%></h2>
+        <h2>The page belongs to <%= data.name%></h2>
+        <button>Follow</button>
+        <button>Message</button>
+        
+        <h3>Account that follow you</h3>
+        <ul>
+            <% for(datas of followers_testing){ %>
+            <li><%=datas %></li>
+            <% } %>
+        </ul>
+        <p>Followers : <%= data.followers %>
+            &nbsp; &nbsp; &nbsp; &nbsp;page following : <%= data.following%> </p>
+        <hr>
+        <% for(post of data.posts){ %>
+            <img src="<%= post.image %>"  alt="Some img">
+            <p>Likes : <%= post.likes %>&nbsp; &nbsp; &nbsp; &nbsp; Likes : <%= post.comments %></p>
+        <% }%>
+    </body>
+    <script src="/script.js"></script>
+</html>
