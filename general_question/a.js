@@ -1,7 +1,45 @@
-let str = "aman";
-let arr = [...str];
+class Dog {
+  constructor(name, breed) {
+    this.name = name;
+    this.breed = breed;
+  }
 
-console.log(typeof arr)
+  // Instance method
+  bark() {
+    console.log(`${this.name} says Woof!`);
+  }
+}
+
+// Creating an instance of the Dog class
+let dog = new Dog('Buddy', 'Golden Retriever');
+
+// Calling the instance method
+dog.bark();  // Output: Buddy says Woof!
+console.log(dog)
+
+
+
+
+
+
+
+
+
+
+
+// function greet(name = 'Guest', greeting = 'Hello') {
+//   console.log(`${name}!,${greeting}`);
+// }
+
+// greet();          // Outputs: Hello, Guest!
+// greet('Alice');   // Outputs: Hello, Alice!
+// greet('Bob', 'Hi'); // Outputs: Hi, Bob!
+
+// function greet2(name, greeting) { 
+//     console.log(`${name}!,${greeting}`);
+// }
+
+// greet2("aman")
 
 
 
@@ -15,8 +53,10 @@ console.log(typeof arr)
 
 
 
+// let str = "aman";
+// let arr = [...str];
 
-
+// console.log(typeof arr)
 
 
 
