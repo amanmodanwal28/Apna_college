@@ -30,7 +30,7 @@ app.get("/ig/:username", (req, res) => {
     const followers_testing = ["aman", "garv ", "aman2", "naira", "piyush"]
     const instaData = require("./data.json")
     const data  = instaData[username]
-    console.log(data.posts[0])
+    console.log(data)
     if (data) {
         res.render("instagram.ejs", { username, followers_testing, data });
     }
