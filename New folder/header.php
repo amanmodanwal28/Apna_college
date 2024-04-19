@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/silderstyel.css" />
     <link rel="stylesheet" href="css/journey.css" />
     <link rel="stylesheet" href="css/tour.css" />
+    <link rel="stylesheet" href="css/register_form.css" />
 
 
 

@@ -6,18 +6,18 @@ include 'add.php';
 ?>
 
 <!-----------------------------------automatic slider ----------------------------------------------------------------------->
-<div style="padding-left:20px; ">
+<div class="form_register">
 
-    <h1 style="padding-top: 60px;">New Service Request</h1>
+    <h1 class="service_heading">New Service Request</h1>
     <table>
         <form action="registersr.php" method="post" style="color: white;">
             <tr>
-                <td> <label for="pnrnumber">PNR Number</label></td>
+                <td> <label class="pnrnumber" for="pnrnumber">PNR Number</label></td>
                 <td> <input type="text" id="pnrnumber" name="pnrnumber" required></td>
             </tr>
             <tr>
                 <td>
-                    <label for="passengername">Passenger Name</label>
+                    <label class="passengername" for="passengername">Passenger Name</label>
                 </td>
                 <td> <input type="text" id="passengername" name="passengername" required></td>
             </tr>
@@ -58,11 +58,12 @@ include 'add.php';
         </form>
         </tr>
     </table>
-    <?php 
+</div>
+<?php 
 //include header
 include 'footer.php';
 
 ?>
-    </body>
+</body>
 
-    </html>
+</html>
