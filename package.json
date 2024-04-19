@@ -2,7 +2,7 @@
   "name": "apna_college",
   "version": "1.0.0",
   "description": "",
-  "main": "./15_april_EJS/index.js",
+  "main": "./19_april/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -13,6 +13,8 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.19.2",
-    "nodemon": "^3.1.0"
+    "method-override": "^3.0.0",
+    "nodemon": "^3.1.0",
+    "uuid": "^9.0.1"
   }
 }
