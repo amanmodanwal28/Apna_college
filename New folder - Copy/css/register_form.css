@@ -1,0 +1,59 @@
+.form_register {
+    margin: auto;
+    margin-top: 200px;
+    height: auto;
+    width: 400px;
+    border: 5px solid red;
+    box-sizing: border-box;
+    background-color: #ff9933;
+}
+
+.service_heading {
+    align-items: center;
+    text-align: center;
+}
+
+.pnrnumber {
+    font-style: normal;
+    font-weight: 900;
+}
+
+
+.customer_data_sheet {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.customer_data_sheet td,
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+
+.check_pnr_complain {
+    margin: auto;
+    margin-top: 10px;
+    height: auto;
+    width: 400px;
+    border: 2px dotted red;
+    box-sizing: border-box;
+    background-color: #c221aa;
+}
+
+
+/* ....................... */
+/* //////////////////////// */
+/*  Attendent login form */
+
+.Attendent_login_form {
+    margin: auto;
+    margin-top: 200px;
+    height: auto;
+    width: 400px;
+    border: 5px solid red;
+    box-sizing: border-box;
+    background-color: #ff9933;
+}

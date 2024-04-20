@@ -1,0 +1,37 @@
+.box {
+	background: linear-gradient(to left, #ff9933 0%, #33ccff 100%);
+	justify-content: all;
+	display: flex;
+	margin-left: 50px;
+}
+
+table {
+	border-spacing: 0;
+	border: 1px solid #ddd;
+	width: 100%;
+	overflow-x: auto;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+@media screen and (max-width: 800px) {
+
+	.left,
+	.main,
+	.right {
+		width: 100%;
+		/* The width is 100%, when the viewport is 800px or smaller */
+	}
+
+}
