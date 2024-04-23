@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form</title>
+        <link rel="stylesheet" href="Attendent_login.css" />
+    </head>
+    <body>
+        <section id="Attendent_login_body">
+            <div class="form-box-register">
+                <div class="form-value">
+                    <form action="registersr.php" method="post">
+                        <h2 id="Attendent_login_heading">New Service
+                            Request</h2>
+
+                        <div class="inputbox">
+                            <input type="text" id="pnrnumber" name="pnrnumber"
+                                required>
+                            <label class="pnrnumber" for="pnrnumber">PNR
+                                Number</label>
+                        </div>
+
+                        <div class="inputbox">
+                            <input type="text" id="passengername"
+                                name="passengername" required>
+                            <label class="passengername"
+                                for="passengername">Passenger Name</label>
+                        </div>
+
+                        <div class="inputbox">
+                            <input type="Number" id="contactno" name="contactno"
+                                required>
+                            <label for="contactno">Contact No</label>
+                        </div>
+                        <div class="inputbox">
+                            <input type="Number" id="seatno" name="seatno"
+                                required>
+                            <label for="seatno">Seat No</label>
+                        </div>
+                        <div class="inputbox">
+                            <select id="service" name="service"
+                                style="width: 180px;height: 20px;" ;>
+                                <option value="emergency">Emergency</option>
+                                <option value="security">Security</option>
+                                <option value="linen">Linen</option>
+                                <option value="veg">Veg Food</option>
+                                <option value="nonveg">Non Veg</option>
+                                <option value="specialcase">Special Case</option>
+                            </select>
+                            <label for="service">Servicees</label>
+                        </div>
+                        <div class="inputbox">
+                            <textarea  id="message" name="message" rows="4"
+                             cols="30" placeholder="Enter your Complaint"></textarea>
+                            <label for="message">Write your complaint
+                                here...</label>
+                        </div>
+
+                        <button id="register_login_btn">Login</button>
+                    </form>
+                    <form action="existingsr.php" method="post">
+                        <input type="submit" name="existingsr"
+                            value="  Existing  " id="register_form_existing">
+
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
