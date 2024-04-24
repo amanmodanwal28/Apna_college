@@ -1,0 +1,65 @@
+create database college;
+create database xyz_company;
+DROP DATABASE xyz_company;
+
+USE college;
+CREATE TABLE student(
+rollno INT ,
+name VARCHAR(30),
+age INT
+);
+
+INSERT INTO student VALUES
+(102,"aman",12),
+(105, "ankit", 18),
+(102, "ravi", 28),
+(125, "lax", 38),
+(115, "garv", 11),
+(109, "raju", 19),
+(112, "chintan", 21);
+INSERT INTO student VALUES
+(112, "kaju", 22),
+(133, "ramzi", 21);
+
+SELECT * FROM student
+WHERE age>15
+order by age ASC;
+
+SELECT count(age)
+FROM student;
+
+SELECT age ,count(age)
+FROM student
+group by age;
+
+
+UPDATE student
+SET age=305
+WHERE rollno =102;
+
+DELETE FROM student
+WHERE age = 305;
+
+ALTER TABLE student
+ADD column city varchar(50) default "Jaunput";
+
+alter table student
+drop column city;
+
+alter table student
+rename to student_pps;
+
+alter table student_pps
+rename to student;
+
+alter table student
+change column rollno id int ;
+
+alter table student
+change column id rollno int ;
+
+truncate table student;
+
+SELECT * FROM student;
+SELECT * FROM student_pps;
+
