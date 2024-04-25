@@ -1,0 +1,132 @@
+/**************************** CSS for playlist positioned at right side *****************************/
+.playlist {
+  font-family: 'Comfortaa', cursive;
+}
+
+.playlist::-webkit-scrollbar {
+  width: 0px;
+  /* width of the entire scrollbar */
+}
+
+.playlist::-webkit-scrollbar-track {
+  background: black;
+  /* color of the tracking area */
+}
+
+.playlist::-webkit-scrollbar-thumb {
+  background-color: grey;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid black;
+  /* creates padding around scroll thumb */
+
+}
+
+.playlist {
+  background-color: red;
+  color: rgb(97, 27, 154);
+  position: fixed;
+  right: 100px;
+  left: 330px;
+  top: 230px;
+  bottom: 0px;
+  padding-top: 30px;
+  overflow: auto;
+}
+
+.masterPlay {
+  position: fixed;
+}
+/* 
+.playlist h1 {
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.playlist h1,
+h4 {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.playlist h4 {
+  margin-left: 130px;
+  font-size: 13px;
+}
+
+.playlist select {
+  color: white;
+  background-color: #010203;
+  border-style: none;
+}
+
+.playlist select:hover {
+  cursor: pointer;
+}
+
+.playlist i {
+  color: rgb(59, 53, 53);
+}
+
+.playlist .song-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  transition: .2s;
+} */
+
+
+
+#playlistItems .playlist-item {
+  display: flex;
+  margin: auto;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  transition: .2s;
+}
+
+
+.playlist-item:hover {
+  background-color: #0e91e8;
+  cursor: pointer;
+  color: rgb(172, 32, 8);
+}
+
+
+.song-container .index {
+  font-size: 19px;
+  color: grey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#playlistItems .song-info {
+  width: 600px;
+}
+
+
+.song-info p:nth-child(1) {
+  font-family: 'Comfortaa';
+  font-weight: bold;
+padding-top: 5px;
+
+
+}
+
+.song-info p:nth-child(2) {
+  font-size: 19px;
+
+  font-weight: bold;
+  color: grey;
+}
+
+.playlist-item.active {
+  font-weight: bold;
+  font-style: italic;
+  color: darkgreen;
+  font-size: 25px
+}
