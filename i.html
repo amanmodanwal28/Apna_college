@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- Meta Tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Title -->
+        <title>Simple Page</title>
+
+    </head>
+    
+    <body>
+        <header>
+            <h1>HTML5 Template</h1>
+        </header>
+
+        <main>
+            <p>This is a simple HTML5 Template</p>
+        </main>
+
+        <p id="getData"></p>
+        <h1 id="getData2"></h1>
+
+        <p class="getData"></p>
+        <h1 class="getData"></h1>
+
+        <script type="module">
+  import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
+ // console.log("jjjjj",uuidv4()); // ⇨ '1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed'
+
+
+  var uid = uuidv4()
+  console.log(uid);
+
+  document.getElementById("getData").innerHTML = uid
+
+ // const uuid2 = document.getElementById("getData2");
+  const uuid2 = document.querySelector("#getData2");
+  uuid2.innerHTML =uid;
+
+
+   // Set UUID to all elements with class "getData"
+  const elements = document.querySelectorAll(".getData");
+  elements.forEach(element => {
+    element.innerHTML = uid;
+  });
+
+
+</script>
+    </body>
+</html>
