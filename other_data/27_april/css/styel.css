@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+/*CSS Document*/
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container1 {
+	width: 100%;
+	height: 60vh;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 160px 0px;
+	/*background-color:#17171d;*/
+}
+
+.box {
+	width: 250px;
+	height: 320px;
+	background-color: #7e1e26;
+	border-radius: 50px;
+	box-shadow: 2px 10px 12px rgba(0, 0, 0, 0, 0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*justify-content:space-between;*/
+	box-sizing: border-box;
+	margin: 100px 10px;
+}
+
+.model {
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+}
+
+.details p {
+	font-family: calibri;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.marvel {
+	color: #00539CFF;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: bebas kai;
+	font-size: 25px;
+}
+
+.logo {
+	height: 20px;
+}
+
+.box:hover {
+	background-color: #17171d;
+	transform-style: preserve-3d;
+	transform: scale(1.02);
+	transition: all ease 0.3s;
+}
+
+.box:hover .marvel {
+	background-color: #EEA47FFF;
+	transition: all ease 0.3s;
+}
+
+.ws6 {
+	font-size: 8px;
+}
+
+.ws7 {
+	font-size: 9.3px;
+}
+
+.ws8 {
+	font-size: 11px;
+}
+
+.ws9 {
+	font-size: 12px;
+}
+
+.ws10 {
+	font-size: 13px;
+}
+
+.ws11 {
+	font-size: 15px;
+}
+
+.ws12 {
+	font-size: 16px;
+}
+
+.ws14 {
+	font-size: 19px;
+}
+
+.ws16 {
+	font-size: 21px;
+}
+
+.ws18 {
+	font-size: 24px;
+}
+
+.ws20 {
+	font-size: 27px;
+}
+
+.ws22 {
+	font-size: 29px;
+}
+
+.ws24 {
+	font-size: 32px;
+}
+
+.ws26 {
+	font-size: 35px;
+}
+
+.ws28 {
+	font-size: 37px;
+}
+
+.ws36 {
+	font-size: 48px;
+}
+
+.ws48 {
+	font-size: 64px;
+}
+
+.ws72 {
+	font-size: 96px;
+}
+
+.wpmd {
+	font-size: 13px;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+/*------------------responsive for phone-------------*/
+@media only screen and (max-width:720px) and (oriantation:landscape) {}
